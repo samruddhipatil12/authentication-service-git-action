@@ -30,6 +30,11 @@ jobs:
          run: mvn ossindex:audit
          continue-on-error: true
 
+       - name: OWASP scan
+         if: false
+         run: mvn org.owasp:dependency-check-maven:check
+
+
 
 
 
