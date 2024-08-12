@@ -85,7 +85,7 @@
 						<image>
 							<name>dnyanyog/directory-service:latest</name>
 							<build>
-								<dockerFile>${project.basedir}/docker-learnings/directory-service/src/main/docker/Dockerfile</dockerFile>
+								<dockerFile>${project.basedir}/docker-learnings/hospital-console/directory-service/src/main/docker/Dockerfile</dockerFile>
 								<assembly>
 									<descriptorRef>artifact</descriptorRef>
 								</assembly>
