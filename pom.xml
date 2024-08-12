@@ -83,7 +83,7 @@
                 <configuration>
                     <images>
                         <image>
-                            <name>${image.registry}/${project.artifactId}:${image.tag}</name>
+                            <name>${project.artifactId}:${project.version}</name>
                             <build>
                                 <dockerFile>${project.basedir}/dockerfile</dockerFile>
                                 <args>
